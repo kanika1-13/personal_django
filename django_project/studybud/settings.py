@@ -24,7 +24,7 @@ import os
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key-for-local')
 
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+DEBUG = True
 
 ALLOWED_HOSTS = ['personal-django-2.onrender.com']
 
@@ -131,9 +131,9 @@ STATICFILES_DIRS = [
 # At the end of settings.py
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-MEDIA_URL = '/media/'
+MEDIA_URL = '/images/'
 
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR / 'static/images'
 
 AUTH_USER_MODEL = 'base.User'
 
