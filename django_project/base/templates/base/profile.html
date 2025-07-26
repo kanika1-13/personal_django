@@ -4,7 +4,7 @@
 <main class="profile-page layout layout--3">
   <div class="container">
     <!-- Topics Start -->
-    {% include 'base/topics_component.html' %}
+    {% include 'base/topics_components.html' %}
     <!-- Topics End -->
 
     <!-- Room List Start -->
@@ -32,8 +32,7 @@
 
       <div class="roomList__header">
         <div>
-          <h2>Study Rooms Hosted by dennis_ivy</a>
-          </h2>
+          <h2>Study Rooms Hosted by {{user.username}}</h2>
         </div>
       </div>
       {% include 'base/feed_component.html' %}
@@ -43,7 +42,7 @@
     <!-- Room List End -->
 
     <!-- Activities Start -->
-    {% include 'base/activity_component.html' %}
+    {% include 'base/activity_components.html' %}
     <!-- Activities End -->
   </div>
 </main>
