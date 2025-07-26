@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'fallback-secret-key-for-local')
 
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(',') if os.environ.get('ALLOWED_HOSTS') else [] # type: ignore
+ALLOWED_HOSTS = ['personal-django-2.onrender.com']
 
 
 # Application definition
