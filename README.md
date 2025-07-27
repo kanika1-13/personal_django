@@ -2,6 +2,8 @@
 
 A Django-based web application that helps users find study rooms, connect with others, and collaborate on topics.
 
+You can check it out and try for yourself - https://personal-django-2.onrender.com
+
 ---
 
 ## ✨ Features
